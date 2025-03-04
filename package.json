@@ -1,10 +1,11 @@
 {
   "name": "devtree",
+  "type": "module",
   "version": "1.0.0",
   "description": "Primer proyecto con Express y TypeScript",
   "main": "index.js",
   "scripts": {
-    "dev": "node --watch index.js"
+    "dev": "nodemon index.js"
   },
   "repository": {
     "type": "git",
@@ -18,5 +19,10 @@
   "homepage": "https://github.com/Yuli-Ramirez-02/DevTree#readme",
   "dependencies": {
     "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.2"
   }
 }
